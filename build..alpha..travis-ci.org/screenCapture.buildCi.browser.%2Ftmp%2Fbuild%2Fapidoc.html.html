@@ -65,6 +65,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.memwatch-next.HeapDiff.prototype.end">
+            function <span class="apidocSignatureSpan">memwatch-next.</span>HeapDiff.prototype.end
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.memwatch-next.gc">
             function <span class="apidocSignatureSpan">memwatch-next.</span>gc
             <span class="apidocSignatureSpan">()</span>
@@ -124,6 +133,32 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.memwatch-next.HeapDiff.prototype.end">module memwatch-next.HeapDiff.prototype.end</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.memwatch-next.HeapDiff.prototype.end.end">
+            function <span class="apidocSignatureSpan">memwatch-next.HeapDiff.prototype.</span>end
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.memwatch-next.gc">module memwatch-next.gc</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.memwatch-next.gc.gc">
+            function <span class="apidocSignatureSpan">memwatch-next.</span>gc
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -154,6 +189,19 @@ var hd = new memwatch.<span class="apidocCodeKeywordSpan">HeapDiff</span>();
 var diff = hd.end();
 ```
 ...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.memwatch-next.HeapDiff.prototype.end" id="apidoc.element.memwatch-next.HeapDiff.prototype.end">
+        function <span class="apidocSignatureSpan">memwatch-next.</span>HeapDiff.prototype.end
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function end() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -242,6 +290,58 @@ The contents of `diff` will look something like:
 {
 "before": { "nodes": 11625, "size_bytes": 1869904, "size": "1.78 mb" },
 ...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.memwatch-next.HeapDiff.prototype.end" id="apidoc.module.memwatch-next.HeapDiff.prototype.end">module memwatch-next.HeapDiff.prototype.end</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.memwatch-next.HeapDiff.prototype.end.end" id="apidoc.element.memwatch-next.HeapDiff.prototype.end.end">
+        function <span class="apidocSignatureSpan">memwatch-next.HeapDiff.prototype.</span>end
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function end() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```javascript
+// Take first snapshot
+var hd = new memwatch.HeapDiff();
+
+// do some things ...
+
+// Take the second snapshot and compute the diff
+var diff = hd.<span class="apidocCodeKeywordSpan">end</span>();
+```
+
+The contents of `diff` will look something like:
+
+```javascript
+{
+"before": { "nodes": 11625, "size_bytes": 1869904, "size": "1.78 mb" },
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.memwatch-next.gc" id="apidoc.module.memwatch-next.gc">module memwatch-next.gc</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.memwatch-next.gc.gc" id="apidoc.element.memwatch-next.gc.gc">
+        function <span class="apidocSignatureSpan">memwatch-next.</span>gc
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function gc() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
