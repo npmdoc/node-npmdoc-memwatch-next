@@ -1,6 +1,6 @@
 # npmdoc-memwatch-next
 
-#### api documentation for  [memwatch-next (v0.3.0)](https://github.com/marcominetti/node-memwatch#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-memwatch-next.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-memwatch-next) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-memwatch-next.svg)](https://travis-ci.org/npmdoc/node-npmdoc-memwatch-next)
+#### basic api documentation for  [memwatch-next (v0.3.0)](https://github.com/marcominetti/node-memwatch#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-memwatch-next.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-memwatch-next) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-memwatch-next.svg)](https://travis-ci.org/npmdoc/node-npmdoc-memwatch-next)
 
 #### Keep an eye on your memory usage, and discover and isolate leaks.
 
@@ -83,7 +83,8 @@
         "install": "node-gyp rebuild",
         "test": "mocha tests --reporter spec"
     },
-    "version": "0.3.0"
+    "version": "0.3.0",
+    "bin": {}
 }
 ```
 
